@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+
+<circuito>
+    <nombre>
+        Chang International Circuit
+    </nombre>
+
+    <dimensiones>
+        <largo unidad="km">4.55</largo>
+        <anchura unidad="m">13</anchura>
+    </dimensiones>
+
+    <carrera>
+        <fecha>2/03/2025</fecha>
+        <hora>9:00</hora>
+        <vueltas>26</vueltas>
+        <patrocinador>PT Energy PCL</patrocinador>
+        <vencedor>Marc Márquez</vencedor>
+        <clasificados>
+            <clasificado>
+                <clasificacion>1</clasificacion>
+                <equipo>Ducati</equipo>
+            </clasificado>
+            <clasificado></clasificado>
+            <clasificado></clasificado>
+        </clasificados>
+    </carrera>
+
+    <localizacion>
+        <localidad>Buriram</localidad>
+        <pais>Tahilandia</pais>
+    </localizacion>
+
+    <galeria>
+        <fotos>
+            <foto></foto>
+            <foto></foto>
+            <foto></foto>
+        </fotos>
+        <videos>
+            <video></video>
+            <video></video>
+            <video></video>
+        </videos>
+    </galeria>
+
+    <mapa>
+        <origen>
+            <punto>
+                <longitud unidad="E">103º05'03"</longitud>
+                <latitud unidad="N">14º57'31"</latitud>
+                <altitud unidad="m">180</altitud>
+            </punto>
+        </origen>
+        <tramos>
+            <tramo>
+                <distancia unidad="m">230</distancia>
+                <sector></sector>
+                <punto_final>
+                    <punto>
+                        <longitud unidad="E">103º04'56"</longitud>
+                        <latitud unidad="N">14º57'34"</latitud>
+                        <altitud unidad="m">180</altitud>
+                    </punto>
+                </punto_final>
+            </tramo>
+        </tramos>
+    </mapa>
+
+    <referencias>
+        <referencia>https://www.motogp.com/en/calendar/2026/event/thailand/364a0bd9-d3c2-4ab3-a4cd-211ff469953e?tab=overview</referencia>
+        <referencia>https://motogp.tech3racing.fr/</referencia>
+        <referencia>https://en.wikipedia.org/wiki/Buriram_International_Circuit</referencia>
+    </referencias>
+
+</circuito>

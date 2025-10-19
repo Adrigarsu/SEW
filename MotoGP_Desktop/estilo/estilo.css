@@ -1,0 +1,156 @@
+/* Adriana Garcia SUarez UO300042 */
+/* Reglas generales del proyecto MotoGP_Desktop */
+
+
+
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #ec900e;
+    color: #222;
+    font-size: medium;
+}
+
+    
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    background-color: antiquewhite; 
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 5mm;
+}
+nav a {
+    color: grey;
+    padding: 2mm;   
+}
+
+nav a.active {
+    color: black;
+}
+
+header a{
+    text-decoration-line: none;
+}
+
+@media (min-width: 320px) and (max-width: 799px){
+    header {
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    body {
+        font-size: large;
+    }
+}
+
+
+h1 a {
+    color: #082742;
+    text-decoration-line: none;
+}
+
+h2{
+    color: antiquewhite;
+    background-color: #082742;
+}
+
+video {
+    width: 90%;
+    height: auto;
+    
+}
+
+audio {
+    width: 90%;
+    height: auto;
+    
+}
+
+
+picture img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    
+}
+
+
+p.migas {
+  font-size: 0.875em; 
+  color: #666; 
+}
+
+p.migas a {
+  text-decoration: none; 
+   color: #666;
+}
+
+  
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    text-align: center;
+}
+
+th {
+    background-color: #082742;
+    color: antiquewhite;
+}
+
+
+section {
+    margin: 2em 0;
+    padding: 1em;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+ul, ol {
+    margin-left: 2em;
+    padding-left: 1em;
+}
+
+dl {
+    margin: 1em 0;
+}
+
+dt {
+    font-weight: bold;
+    color: #082742;
+}
+
+dd {
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+aside {
+    background-color: antiquewhite;
+    padding: 1em;
+    margin-top: 2em;
+    border-left: 4px solid #ec900e;
+}
+
+aside a {
+    margin-bottom: 0.5em;
+    color: #082742;
+}
